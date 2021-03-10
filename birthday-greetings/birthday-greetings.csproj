@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>birthday_greetings</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="employees.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="employees.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
