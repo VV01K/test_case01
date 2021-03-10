@@ -1,6 +1,6 @@
 
 # Introduction
-This project is here to see how wa could improve a code base.
+This project is here to see how we could improve a code base.
 
 # Instruction 
 Here are some instructions to follow if you want to practice.
